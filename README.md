@@ -1,6 +1,6 @@
 # SAFT - Simple Agreement for Future Token
 
-This repository tracks releases of the SAFT forms, part of the [SAFT Project](https://saft-project.org). These forms are open source and released for anyone to use. Take a look at the documents in this repository.
+This repository tracks releases of the SAFT forms, part of the [SAFT Project](http://saftproject.com). These forms are open source and released for anyone to use. Take a look at the documents in this repository.
 
 ## Contribute
 
