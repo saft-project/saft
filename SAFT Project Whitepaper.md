@@ -1,10 +1,14 @@
 # The SAFT Project: Toward a Compliant Token Sale Framework
 ###### October 2, 2017
 
+
 Juan Batiz-Benet
+
 Jesse Clayburgh
+
 Marco Santori
- 
+
+
 **Abstract:** Blockchain protocol tokens, or simply “tokens” are digital assets used in connection with decentralized services, applications, and communities (collectively, “token networks”). As of this writing, dozens of such networks are in use world-wide, with many more in development. Bitcoin and Ethereum are the most notable examples. Token networks may bring about positive paradigm shifts to computing, finance, law, government, and more. Tokens leverage computation and cryptography to represent consumptive goods (known as “utility tokens”) or replacements for traditional investments (known as “securities tokens”).
 
 The public token sale, colloquially known as an “Initial Coin Offering,” is a powerful new tool for creating decentralized communities, kickstarting network effects, incentivizing participants, providing faster liquidity to investors, and forming capital for creators. In these sales, network creators sell an amount of the network’s tokens at a discount to users, investors, or both. Some token sales take place when or after the token network is launched, as a means to disseminate some fraction of the token supply to early users. Other token sales happen long before the token network has genuine functionality; so-called “direct token pre-sales” are sold at greater discounts with the goal of financing the development of the network and its launch.
