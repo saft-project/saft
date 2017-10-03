@@ -1,47 +1,34 @@
 # The SAFT Project: Toward a Compliant Token Sale Framework
 ###### October 2, 2017
 
->Juan Batiz-Benet
->Jesse Clayburgh
->Marco Santori
+Juan Batiz-Benet
+Jesse Clayburgh
+Marco Santori
  
->**Abstract:** Blockchain protocol tokens, or simply “tokens” are digital assets used in connection with decentralized services, applications, and communities (collectively, “token networks”). As of this writing, dozens of such networks are in use world-wide, with many more in development. Bitcoin and Ethereum are the most notable examples. Token networks may bring about positive paradigm shifts to computing, finance, law, government, and more. Tokens leverage computation and cryptography to represent consumptive goods (known as “utility tokens”) or replacements for traditional investments (known as “securities tokens”).
->
->The public token sale, colloquially known as an “Initial Coin Offering,” is a powerful new tool for creating decentralized communities, kickstarting network effects, incentivizing participants, providing faster liquidity to investors, and forming capital for creators. In these sales, network creators sell an amount of the network’s tokens at a discount to users, investors, or both. Some token sales take place when or after the token network is launched, as a means to disseminate some fraction of the token supply to early users. Other token sales happen long before the token network has genuine functionality; so-called “direct token pre-sales” are sold at greater discounts with the goal of financing the development of the network and its launch.
->
->Purchasers in these direct presales tend to expect profit predominantly from the seller’s efforts to create functionality in the token. As such, these sellers may unintentionally be selling securities, and may have failed to comply with several U.S. laws.
->
->We propose a path toward a new, compliant framework called the Simple Agreement for Future Tokens, or “SAFT”. Together with the publication of this paper, we launch the SAFT Project—a forum for discussion and development of the SAFT framework.
->
->The SAFT is an investment contract. A SAFT transaction contemplates an initial sale of a SAFT by developers to accredited investors. The SAFT obligates investors to immediately fund the developers. In exchange, the developers use the funds to develop genuinely functional network, with genuinely functional utility tokens, and then deliver those tokens to the investors once functional. The investors may then resell the tokens to the public, presumably for a profit, and so may the developers.
->The SAFT is a security. It demands compliance with the securities laws. The resulting tokens, however, are already functional, and need not be securities under the Howey test. They are consumptive products and, as such, demand compliance with state and federal consumer protection laws.
->
->To be sure, public purchasers may still be profit-motivated when they buy a post-SAFT utility token. Unlike a pre-functional token, though, whose market value is determined predominantly by the efforts of the sellers in imbuing the tokens with functionality, a genuinely functional token's value is determined by a variety of market factors, the aggregate impact of which likely predominates the “efforts of others.” Sellers of already-functional tokens have likely already expended the “essential” managerial efforts that might otherwise satisfy the Howey test.
->
->Beyond the securities laws, the SAFT framework elegantly navigates the money services and tax laws, and addresses the significant policy concerns with the direct token presale alternative.
->
->A copy of a draft SAFT is attached to this whitepaper as Exhibit 1. The SAFT Project website is available at [www.saftproject.com].
+**Abstract:** Blockchain protocol tokens, or simply “tokens” are digital assets used in connection with decentralized services, applications, and communities (collectively, “token networks”). As of this writing, dozens of such networks are in use world-wide, with many more in development. Bitcoin and Ethereum are the most notable examples. Token networks may bring about positive paradigm shifts to computing, finance, law, government, and more. Tokens leverage computation and cryptography to represent consumptive goods (known as “utility tokens”) or replacements for traditional investments (known as “securities tokens”).
+
+The public token sale, colloquially known as an “Initial Coin Offering,” is a powerful new tool for creating decentralized communities, kickstarting network effects, incentivizing participants, providing faster liquidity to investors, and forming capital for creators. In these sales, network creators sell an amount of the network’s tokens at a discount to users, investors, or both. Some token sales take place when or after the token network is launched, as a means to disseminate some fraction of the token supply to early users. Other token sales happen long before the token network has genuine functionality; so-called “direct token pre-sales” are sold at greater discounts with the goal of financing the development of the network and its launch.
+
+Purchasers in these direct presales tend to expect profit predominantly from the seller’s efforts to create functionality in the token. As such, these sellers may unintentionally be selling securities, and may have failed to comply with several U.S. laws.
+
+We propose a path toward a new, compliant framework called the Simple Agreement for Future Tokens, or “SAFT”. Together with the publication of this paper, we launch the SAFT Project—a forum for discussion and development of the SAFT framework.
+
+The SAFT is an investment contract. A SAFT transaction contemplates an initial sale of a SAFT by developers to accredited investors. The SAFT obligates investors to immediately fund the developers. In exchange, the developers use the funds to develop genuinely functional network, with genuinely functional utility tokens, and then deliver those tokens to the investors once functional. The investors may then resell the tokens to the public, presumably for a profit, and so may the developers.
+
+The SAFT is a security. It demands compliance with the securities laws. The resulting tokens, however, are already functional, and need not be securities under the Howey test. They are consumptive products and, as such, demand compliance with state and federal consumer protection laws.
+
+To be sure, public purchasers may still be profit-motivated when they buy a post-SAFT utility token. Unlike a pre-functional token, though, whose market value is determined predominantly by the efforts of the sellers in imbuing the tokens with functionality, a genuinely functional token's value is determined by a variety of market factors, the aggregate impact of which likely predominates the “efforts of others.” Sellers of already-functional tokens have likely already expended the “essential” managerial efforts that might otherwise satisfy the Howey test.
+
+Beyond the securities laws, the SAFT framework elegantly navigates the money services and tax laws, and addresses the significant policy concerns with the direct token presale alternative.
+
+A copy of a draft SAFT is attached to this whitepaper as Exhibit 1. The SAFT Project website is available at [www.saftproject.com](saftproject.com).
 ----
 
 ### Table of Contents
 - Introduction to Token Sales
-> The Direct Token Presale
-> The Nonprofit Twist
 - U.S. Legal Concerns with the Direct Token Presale Model
-> The Federal Securities Laws
->> The Howey Test
->> Already-functional Utility Tokens Are Unlikely to Pass the Howey Test
->> Pre-functional Utility Token Sales Are More Likely to Pass the Howey Test
->> The SEC’s Position
-> The Federal Money Services Laws
-> The Federal Tax Laws
 - Policy Concerns with the Direct Token Presale Model
 - The SAFT
-> The SAFT Transaction
->> Step 1 in depth
->> Step 2 in depth
->> Step 3 in depth
->> Step 4 in depth
 - Policy Benefits of the SAFT
 - Limits of the SAFT Framework
 - The SAFT as a Project
@@ -61,7 +48,7 @@ Instead, we focus on so-called “utility tokens.” This category of blockchain
 
 With a particular emphasis on legal and policy effects, we describe the often-used “direct token presale” model, which involves the direct sale of a utility token to the public prior to the functionality of the token, and compare it to the SAFT framework, which only produces functional tokens. Our analysis of the direct token presale is critical to understanding why the SAFT is a preferable alternative.
 
->##### The Direct Token Presale
+##### The Direct Token Presale
 
 In a typical[4] direct token presale[5], a software development team forms a legal entity, typically a corporation or a limited liability company if under U.S. law. Prior to the creation of any functional token, the entity accepts money from public, retail purchasers in exchange for a right to the token. The developers are, to greater or lesser extents, skilled in applied cryptography, computer programming, or both.
 
@@ -79,7 +66,7 @@ The entity then builds the network. It uses the proceeds of the token pre-sales 
 
 One of the critical characteristics of the direct token presale model, for purposes of our later comparison to the SAFT Project, is that, in the typical direct token presale, tokens are sold widely to the public at a time when purchasers are still reliant on the developers to build a functional network. In a SAFT, no pre-functional tokens are ever created or sold, let alone released to the public and traded on exchanges.
 
->##### The Nonprofit Twist
+##### The Nonprofit Twist
 
 Some developers form a nonprofit foundation based in a non-U.S. jurisdiction as part of the token network development process. Developers opting for this approach do so for a variety of reasons. Many represent real benefits to the project. For example: neutral governance of a decentralized network; mediation between stakeholders; or investment in long-term research endeavors that might inure to the benefit of the network as a whole. This approach has significant appeal, since the nonprofit structure can establish the founders’ responsibility to the community in a legally binding way. In some cases, foundations can even obligate themselves to periodic audits which ensure the foundation’s resources are allocated according to the nonprofit’s mandate. Some of these foundations accept genuine donations from donors who do not expect any pecuniary return in exchange.
 
@@ -93,29 +80,29 @@ A comprehensive comparison of the various international and nonprofit models to 
 
 The direct token presale implicates a number of U.S. state and federal laws. Sadly, in many cases, direct token presales do more than merely implicate them—they can violate them. We limit our discussion to the most pressing of these laws from a risk exposure perspective: the federal laws governing securities, money services, and taxation.[11]
 
->##### The Federal Securities Laws
+##### The Federal Securities Laws
 
 It is illegal to offer or sell securities in the United States unless the offer and sale are exempt under the federal securities laws or made pursuant to an effective registration statement filed with the SEC.[12] One kind of a security under federal law is an “investment contract.”[13]
 
 We believe that the “investment contract” analysis is the best fit for analyzing most direct token presales under the federal securities laws.[14] Though the law is broad enough to capture any “contract, transaction or scheme,”[15] the utility token by itself, once issued, imbued with genuine functionality and circulating on its network, rarely possesses qualities that would satisfy the requirements for an investment contract. However, in many cases, the contracts used to sell these so-called “utility tokens” (even when couched in terms of a “donation”) can be securities despite their promised utility. As we set forth in the following sections, direct token presale agreements executed prior to network launch are especially vulnerable to being deemed a security.
 
->>###### The Howey Test
+###### The Howey Test
 
 Courts since the 1930s have generated significant analysis of what is meant by the term “investment contract.” The Supreme Court in its 1946 decision in SEC v. W.J. Howey Co.,[16] provided the seminal definition of that term. An investment contract was a “contract, transaction or scheme whereby a person invests his money in a common enterprise and is led to expect profits solely from the efforts of the promoter or a third party.”[17] Many courts in the succeeding seventy-one years have further expounded on each of the constituent parts of this test, now known as the Howey test.
 
 Courts often break the Howey test into four prongs to determine (i) whether there exists an investment of money, (ii) whether there exists a common enterprise, (iii) whether there exists an expectation of profits, and (iv) whether the expectation of profits is solely from the efforts of others. If all prongs are satisfied, then a contract, scheme, or arrangement passes the Howey test and constitutes a security. If any one of the prongs is not met, the arrangement fails the Howey test and there is no security.[18] A comprehensive analysis of the application of the federal securities laws to any particular direct token presale is outside the scope of this whitepaper.[19] However, we do note some of the more significant direct token presale trends in each of the following sections, organized by prong.
 
->>>*Investment of Money*
+*Investment of Money*
 
 A direct token presale typically requires participant purchasers to deliver a government currency or another digital asset such as bitcoin or ether in order to receive tokens in exchange. Although the original Howey test clearly references “money,” more recent decisions have held that an investment of blockchain tokens such as bitcoin,[20] or even an investment of labor,[21] can satisfy this prong. Indeed, even donations can satisfy this prong.[22] As a result, this prong of Howey is often met by direct token presales.
 
->>>*Common Enterprise*
+*Common Enterprise*
 
 Direct token presales often admit of a common enterprise. Courts are split on what is the correct threshold for finding the existence of a common enterprise. The majority of courts apply the so-called horizontal commonality test.[23] Under this approach, a common enterprise exists where multiple investors pool assets and share together in the profits and risks of the enterprise.[24] A minority of courts instead apply the vertical commonality test. There are two variations on the vertical commonality formulation. Under the narrow vertical commonality variation, a common enterprise exists where the fortunes of the investors are bound up with the actual fortunes of the promoter or issuer of the security.[25] Under the broad vertical commonality variation, a common enterprise exists where the fortunes of the investors are bound up with the mere efforts of the promoter or issuer.[26]
 
 Some direct token presales satisfy one or more of the variations on this prong, and some do not. Take horizontal commonality, for example. The developers have laid the groundwork for meeting this prong when (i) tokens are fungible, (ii) the entity pools all the money raised from selling the tokens, and (iii) the entity uses the pooled funds to build the network.[27] Vertical commonality is rarer. To be sure, token purchasers might rely on the efforts of the developers to create the network, but that fact might support the “efforts of others” prong of the Howey test, not the broad variation of the vertical commonality prong, in which the fortunes of the investors must be bound up with the efforts of the issuer. Likewise, narrow vertical commonality is rare, since the purchasers’ profit from the token sale is rarely dependent upon the ultimate profitability of the developers or their entity. The value of a truly decentralized network is decoupled from the financial success of the original developers. Moreover, the mission of many developers’ entities is to expend all of its resources to develop an open, permission-less network that acts as a public good, slowly and expectedly entering insolvency as it does so.
 
->>>*Expectation of Profits*
+*Expectation of Profits*
 
 An expectation of profit generally means expected capital appreciation resulting from the development of the initial investment or expected participation in earnings resulting from the use of investor funds.[28] There can be such an expectation where expected profits “come primarily from the discount below the current price” of a commodity.[29] There is no expectation of profit where a purchaser is motivated primarily by the desire to use or consume the item purchased.[30]
 
@@ -123,11 +110,11 @@ How much expectation of profit is permissible before the arrangement satisfies t
 
 Direct token presales often satisfy this prong. In most direct token presales today, purchasers seem predominantly motivated by a desire to profit from the transaction. Most seem to hope to sell the token at a higher price than they paid. Some commentators have ignored this trend, or justified it by arguing that the developers’ promise of future functionality is a substitute for a genuinely consumptive motive on the part of the purchaser. We take up this issue in depth in the following sections comparing pre-functional token sales to sales of already-functional tokens.
 
->>>*From the Efforts of Others*
+*From the Efforts of Others*
 
 Assuming the purchaser’s expectation of profit predominates any consumptive motive, this prong considers the source of that expectation. It asks “whether the efforts made by those other than the investor are the undeniably significant ones, those essential managerial efforts which affect the failure or success of the enterprise.”[33] An analysis of this prong in the token sale context requires a deep understanding of the rights, powers (and, sometimes, obligations) attendant to the token in question. Sadly, this prong and the prior prong are often conflated or collapsed into one another. We take up this issue in the following sections, through the lens of token functionality.
 
->>######Already-functional Utility Tokens Are Unlikely to Pass the Howey Test
+######Already-functional Utility Tokens Are Unlikely to Pass the Howey Test
 
 Sellers of already-functional utility tokens have very strong arguments against characterization as a security: Such tokens rarely satisfy both the “expectation of profits” and “from the efforts of others” prongs of the Howey test.
 
@@ -149,7 +136,7 @@ Thus, an already-functional utility token is less likely to be a security for tw
 
 There are, of course, limits to this position. Not all already-functional utility tokens will fail the Howey test simply by virtue of being functional. A later section of this whitepaper sets forth some of the limits on this position and, therefore, on the SAFT framework itself. Still, **for an already-functional utility token, a great variety of forces can predominate the effects of the “efforts of others” on the purchaser’s “expectation of profit.”** In the case of a pre-functional utility token, though, there is often just one force that clearly predominates. We take this up in the next section.
 
->>###### Pre-functional Utility Token Sales Are More Likely to Pass the Howey Test
+###### Pre-functional Utility Token Sales Are More Likely to Pass the Howey Test
 
 Potential plaintiffs (whether private or governmental) seeking to assert that a token is a security, might argue that the “efforts of others” prong is satisfied whenever the developers sell utility tokens prior to the network launch and prior to genuine utility (aside from mere tradability). They might take the position that the purchasers of these pre-functional utility tokens in such a scenario necessarily rely on the managerial and technical efforts of the developers to realize value from their tokens.
 
@@ -159,21 +146,21 @@ For example, at the pre-functional stage, the price of an encrypted-password-sto
 
 The chief legal concern with direct token presales under the securities laws is that many of them, for the above reasons, might pass the Howey test for an investment contract. The SAFT framework, as set forth in more detail below, never results in a pre-functional utility token.
 
->>###### The SEC’s Position
+###### The SEC’s Position
 
 The SEC has not yet publicly spoken on utility tokens. However, on July 25, 2017, the SEC issued an Investigative Report on the application of the federal securities laws to the Decentralized Autonomous Organization (DAO) and the blockchain token associated with it (DAO Token).[42] It marked the SEC’s first official pronouncement on token sales. As such, it bears inclusion in this whitepaper.
 
 The DAO was a smart contract on the Ethereum blockchain that operated like a venture fund. According to the SEC, the DAO organization sold DAO Tokens to purchasers in exchange for ether. The ether was pooled, and then DAO Token purchasers would vote on a menu of investments to which the DAO would apply portions of the pooled funds. The purchasers would then share in profits from the investments pro rata according to their DAO Token holdings. The DAO Tokens operated like limited partnership interests. They were, using the terminology of this whitepaper, securities tokens.
 
 In its report, the SEC took several positions consistent with the arguments in this whitepaper, including:
->- The Howey test for an investment contract applies to blockchain token investments.[43]
-> - Whether a token is a security is based on the facts and circumstances of each token.[44]
-> - Securities laws reach sellers in foreign jurisdictions, especially when the token is offered or sold to U.S. persons.[45]
-> - Exchanges listing securities tokens are subject to the securities laws and must, among other things, register with the SEC.[46]
+- The Howey test for an investment contract applies to blockchain token investments.[43]
+- Whether a token is a security is based on the facts and circumstances of each token.[44]
+- Securities laws reach sellers in foreign jurisdictions, especially when the token is offered or sold to U.S. persons.[45]
+- Exchanges listing securities tokens are subject to the securities laws and must, among other things, register with the SEC.[46]
 
 The DAO Token was not a utility token, and the SEC did not speak on utility tokens specifically. Since utility tokens now make up a significant proportion of aggregate token offerings, we await and expect further guidance from the SEC on the issues addressed herein.
 
->##### The Federal Money Services Laws
+##### The Federal Money Services Laws
 
 Federal law makes it a crime for anyone to knowingly conduct, control, manage, supervise, direct, or own all or part of a money transmitting business which is not licensed under state and federal law, referred to as an “unlicensed money transmitting business.”[47] We believe that some direct token presales may be characterized as unlicensed money transmitting businesses.
 
@@ -186,13 +173,14 @@ In further rulings, FinCEN has taken the position that a user is not a money tra
 Of particular importance to tokens, FinCEN originally took the position that “a person that creates units of convertible virtual currency and sells those units to another person for real currency or its equivalent is engaged in transmission to another location and is a money transmitter.”[58] In a subsequent ruling, however, presumably presented with additional data about the mining industry, it then added an important caveat to this position. It stated that “how a user obtains a virtual currency may be described using any number of other terms, such as ...’mining,’ ‘creating,’ …[or] ‘manufacturing’”; that:
 
 > it may be necessary for a user to convert Bitcoin that it has mined into a real currency or another convertible virtual currency, either because the seller of the goods or services the user wishes to purchase will not accept Bitcoin, or because the user wishes to diversify currency holdings in anticipation of future needs or for the user’s own investment purposes;[59]
+
 and finally, that:
 
 > in undertaking such a conversion transaction, the user is not acting as an exchanger, notwithstanding the fact that the user is accepting a real currency or another convertible virtual currency and transmitting Bitcoin.[60]
 
 Thus, FinCEN now arguably takes the straightforward position that a person can create a CVC and then sell it on its own account without being a money transmitter. The potential application of this reasoning to tokens is obvious. Yet, FinCEN has consistently maintained that “[a]n administrator or exchanger that (1) accepts and transmits a convertible virtual currency, or (2) buys or sells convertible virtual currency for any reason is a money transmitter.”[61] Thus, there is a risk that direct token presales violate the money transmission laws.[62] We analyze this issue in more depth in our discussion of the SAFT.
 
->##### The Federal Tax Laws
+##### The Federal Tax Laws
 
 Tokens, whether CVC or other kinds of blockchain tokens, are generally treated as “property” for U.S. federal income tax purposes.[63] Consequently, proceeds from a token sale (whether pursuant to a SAFT or a direct presale) are taxable to the entity[64] selling the tokens.  The entity will generally recognize gain in the sale equal to the difference between the proceeds raised from the sale and the tax basis the seller has in the tokens. The tax basis of the seller is, of course, usually zero for a newly-formed entity engaging in a direct token presale. Other taxes, such as sales taxes and the alternative minimum tax may also apply.
 
@@ -223,34 +211,35 @@ In short, the SAFT provides investors with the right to fully-functional utility
 
 Still, a SAFT is not a SAFE, and a SAFT is not “safe.” Indeed, no court, regulator, or taxing authority has yet interpreted the SAFT framework, nor can the SAFT claim the transactional history and ubiquity of the SAFE.
 
->##### The SAFT Transaction
+##### The SAFT Transaction
 
 Here is an example SAFT transaction.
 
-> **Step 1:** Developers publish their whitepaper, incorporate a Delaware corporation called Developers Inc., and secure commitments from accredited investors.
+**Step 1:** Developers publish their whitepaper, incorporate a Delaware corporation called Developers Inc., and secure commitments from accredited investors.
 
-> **Step 2:** Developers enter into a SAFT with the accredited investors relying on the exemption set forth in Rule 506(c)[69] of Regulation D of the Securities Act, and the accredited investors transfer funds in the amount of $15 million to Developers Inc. The SAFT offers investors a discount on the final token sale and is a security, so the developers file a Form D with the SEC disclosing the sale.[70]
+**Step 2:** Developers enter into a SAFT with the accredited investors relying on the exemption set forth in Rule 506(c)[69] of Regulation D of the Securities Act, and the accredited investors transfer funds in the amount of $15 million to Developers Inc. The SAFT offers investors a discount on the final token sale and is a security, so the developers file a Form D with the SEC disclosing the sale.[70]
 
->**Step 3:** Developers Inc. uses the proceeds to develop the network into a product that provides genuine utility to its users.
+**Step 3:** Developers Inc. uses the proceeds to develop the network into a product that provides genuine utility to its users.
 
->**Step 4:** Developers Inc. launches the network and delivers the tokens to the investors. The investors (and potentially Developers Inc.) begin sales of the token to the public, either directly or through exchanges.
+**Step 4:** Developers Inc. launches the network and delivers the tokens to the investors. The investors (and potentially Developers Inc.) begin sales of the token to the public, either directly or through exchanges.
 
 We take up each step in more detail below.
 
->>###### Step 1 in depth
+###### Step 1 in depth
 
 At the outset, the developers in our example have little more than a whitepaper in hand. The network is not built and the whitepaper is not yet peer-reviewed. They take the time between Step 1 and Step 2 to offer the whitepaper for peer review and perhaps publish a bit of code. Critically, they spend this time pitching experienced, accredited investors. They might also engage in extensive public discourse, defending the whitepaper and even advertising an upcoming token sale. As a result of this marketing, advertising and public discourse, the SAFT transaction might rely on Rule 506(c) of the Securities Act which allows for general solicitation of investors, but requires that the offering must be limited, in the end, only to verified accredited investors.[71]  They incorporate using a simple Delaware corporation. Though not necessary, they might even take advantage of the new blockchain amendments to the Delaware General Corporation Law that would allow the entity to itself incorporate directly on a blockchain.[72] They do not seek donations for a foundation to distribute the tokens, nor do they try to avoid U.S. securities, tax, or money services laws.
 
->>###### Step 2 in depth
+###### Step 2 in depth
 
 By Step 2, the developers have secured $15 million in commitments from U.S. accredited investors. The total amount of the commitments is arbitrary, but subject to important tax considerations set forth in Step 4. After confirming through affirmative representations (or verification, as required) by investors that they are accredited, Developers Inc. enters into a SAFT with the accredited investors. Developers Inc. also files a Form D with the SEC. The SAFT is an investment contract whereby investors purchase the right to receive tokens in the subsequent network launch. It exchanges Developers Inc.’s promise to deliver tokens upon the launch of the network for the investors’ promise to immediately pay. The SAFT is, at heart, a forward contract, but for tokens.[73]
 
->>###### Step 3 in depth
+###### Step 3 in depth
 
 The duration of Step 3 will for most developers be a long period of time. In this step, Developers Inc. uses the proceeds of the SAFT sale in Step 2 to develop the network. The company pays for rent, utilities, software engineering, and any additional items required to launch the planned network. The characteristics of the network will dictate the use to which Developers Inc. puts the investors’ funds, and the great variety of possible models will mean a great variety of potential budgetary details.
 
 Still, the ultimate goal of this step is the same regardless of the developers’ architectural goals: develop the network into an genuinely functional product. By this we mean that by the end of this step, the network and the token must be genuinely useful such that they are actually used on a functional network. This means that any future agreement to purchase the tokens—and indeed the tokens themselves—should fail the Howey test and fall outside the definition of a security. More on this in Step 4.
->>###### Step 4 in depth
+
+###### Step 4 in depth
 
 At the beginning of Step 4, Developers Inc. delivers the tokens to the investors and the investors’ rights in the SAFT are extinguished. The investors can achieve liquidity in their investment and Developers Inc. can, if the developers so desire, achieve operating revenue by selling some of the now-functional tokens directly to the public.
 
@@ -258,13 +247,13 @@ The SAFT framework mitigates several risks that would typically endanger a publi
 
 First, the SAFT framework elegantly navigates the federal securities laws: The SAFT itself is likely a security, and all requirements of the securities laws can be complied with in a summary fashion.  As set forth in Step 3, the tokens themselves are not, and never were, securities.[74] At minimum, the sale of tokens to the public fails the “expectation of profit” prong of the Howey test. To be sure, some purchasers may still purchase the tokens primarily to resell them on a secondary market for a profit. For the reasons set forth in the above section on already-functional utility tokens, this should not endanger the model. Developers Inc. has, in our example, already expended its “essential” efforts to create a functional network within which token holders can use a genuinely functional token. Now, after Step 4, any purchaser who expects profit from increase in secondary market value must expect that increase from the great variety of factors that affect markets for commodities. With the seller’s essential efforts already expended, it is unlikely that these “efforts of others” would predominate over that great variety. Moreover, since the tokens are not securities and the SAFT is non-transferrable, the investors do not, merely by purchasing the SAFT, risk being deemed underwriters if they resell their tokens.[75]
 
-Second, the SAFT framework elegantly addresses the money services laws: Even assuming FinCEN takes the position that the tokens are a CVC (which is not a fait accompli for all tokens), investors and the company are probably not money transmitters. To the contrary, when the company issues the SAFT (or the tokens) or when the investors resell the tokens, they are almost certainly trading on their own account. They exercise investment discretion as to the timing and terms of sale of their tokens. If Developers Inc. desires to sell further tokens to the public, it too might argue that it is trading on its own account pursuant to its investment discretion. The stronger argument is that it was only selling its mined tokens to the public. Thus, it did not both accept and transmit tokens. It created the tokens ab initio and at most only transmitted them, which is insufficient for “exchanger” status.[76]
+Second, the SAFT framework elegantly addresses the money services laws: Even assuming FinCEN takes the position that the tokens are a CVC (which is not a fait accompli for all tokens), investors and the company are probably not money transmitters. To the contrary, when the company issues the SAFT (or the tokens) or when the investors resell the tokens, they are almost certainly trading on their own account. They exercise investment discretion as to the timing and terms of sale of their tokens. If Developers Inc. desires to sell further tokens to the public, it too might argue that it is trading on its own account pursuant to its investment discretion. The stronger argument is that it was only selling its mined tokens to the public. Thus, it did not both accept and transmit tokens. It created the tokens *ab initio* and at most only transmitted them, which is insufficient for “exchanger” status.[76]
 
 Third, as compared to the direct token presale, a SAFT transaction offers greater tax management opportunities, which could result in a lower overall tax burden. The funds raised in Step 3 are taxable as income to Developers Inc.,[77] but the SAFT is generally intended to be structured and taxed as a forward contract. If the SAFT so qualifies as a forward contract for tax purposes, then the transaction’s first taxable event does not occur until the tokens are delivered to the investors and the SAFT terminates.[78] Thus, Developers Inc. could have an additional year of tax losses to be carried back to the year of the taxable event. In fact, the company could achieve a tax-neutral transaction if the $15 million raised is less than or equal to Developers Inc.’s:
 
-> (i) net operating losses incurred developing its network prior to delivery of tokens in the year of delivery, plus
-> (ii) those incurred during the 2 years subsequent to token delivery, plus
-> (iii) those carried over from previous years.[79]
+(i) net operating losses incurred developing its network prior to delivery of tokens in the year of delivery, plus
+(ii) those incurred during the 2 years subsequent to token delivery, plus
+(iii) those carried over from previous years.[79]
 
 In this way, sellers that do not subsequently sell functional tokens to the public may obtain an additional tax year in which to incur losses to offset income from a token sale. This could result in a tax neutral sale similar in result to the sale of equity in a venture model. For sellers who do subsequently sell to the public, the primary benefit of the SAFT from a tax perspective is not that it eliminates taxable income, but that it staggers income, providing a longer period to capture operating loss carrybacks (i.e., the seller will raise a relatively smaller amount of proceeds under a SAFT before committing to a larger public token sale and thus will be more able to generate tax losses to offset the income from the token sale).
 
@@ -305,11 +294,11 @@ Additional limits of the SAFT framework surely exist. The possible variations on
 #### The SAFT as a Project
 We view the SAFT project as part of an emerging standard for how blockchain network developers can responsibly innovate. As discussed throughout this whitepaper, the larger blockchain community will benefit from efforts to properly allocate risk and reward between developers, investors and network users. We believe the SAFT is one approach to balancing the risk and reward among these stakeholders, but it is only an initial step. By way of this whitepaper, we hope to spur a conversation within the blockchain community and the legal community on, among other things:
 
-> - the commercial implications of the SAFT framework;
-> - the viability of funding open-source software projects through token sales;
-> - the application of U.S. state laws to the SAFT;
-> - the application of other U.S. federal laws, in particular the commodity derivatives laws, to the SAFT; and
-> - the application of non-U.S. laws to the SAFT.
+ - the commercial implications of the SAFT framework;
+ - the viability of funding open-source software projects through token sales;
+ - the application of U.S. state laws to the SAFT;
+ - the application of other U.S. federal laws, in particular the commodity derivatives laws, to the SAFT; and
+ - the application of non-U.S. laws to the SAFT.
 
 We are committed to creating many diverse paths for responsible blockchain innovation and we view this whitepaper as our initial contribution to the discussion. To begin, A copy of a draft SAFT is attached to this whitepaper as Exhibit 1. The SAFT Project website is available at www.saftproject.com.
 ----
