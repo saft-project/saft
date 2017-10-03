@@ -102,13 +102,13 @@ Courts often break the Howey test into four prongs to determine (i) whether ther
 
 A direct token presale typically requires participant purchasers to deliver a government currency or another digital asset such as bitcoin or ether in order to receive tokens in exchange. Although the original Howey test clearly references “money,” more recent decisions have held that an investment of blockchain tokens such as bitcoin,[20] or even an investment of labor,[21] can satisfy this prong. Indeed, even donations can satisfy this prong.[22] As a result, this prong of Howey is often met by direct token presales.
 
-###### Common Enterprise*
+###### Common Enterprise
 
 Direct token presales often admit of a common enterprise. Courts are split on what is the correct threshold for finding the existence of a common enterprise. The majority of courts apply the so-called horizontal commonality test.[23] Under this approach, a common enterprise exists where multiple investors pool assets and share together in the profits and risks of the enterprise.[24] A minority of courts instead apply the vertical commonality test. There are two variations on the vertical commonality formulation. Under the narrow vertical commonality variation, a common enterprise exists where the fortunes of the investors are bound up with the actual fortunes of the promoter or issuer of the security.[25] Under the broad vertical commonality variation, a common enterprise exists where the fortunes of the investors are bound up with the mere efforts of the promoter or issuer.[26]
 
 Some direct token presales satisfy one or more of the variations on this prong, and some do not. Take horizontal commonality, for example. The developers have laid the groundwork for meeting this prong when (i) tokens are fungible, (ii) the entity pools all the money raised from selling the tokens, and (iii) the entity uses the pooled funds to build the network.[27] Vertical commonality is rarer. To be sure, token purchasers might rely on the efforts of the developers to create the network, but that fact might support the “efforts of others” prong of the Howey test, not the broad variation of the vertical commonality prong, in which the fortunes of the investors must be bound up with the efforts of the issuer. Likewise, narrow vertical commonality is rare, since the purchasers’ profit from the token sale is rarely dependent upon the ultimate profitability of the developers or their entity. The value of a truly decentralized network is decoupled from the financial success of the original developers. Moreover, the mission of many developers’ entities is to expend all of its resources to develop an open, permission-less network that acts as a public good, slowly and expectedly entering insolvency as it does so.
 
-###### Expectation of Profits*
+###### Expectation of Profits
 
 An expectation of profit generally means expected capital appreciation resulting from the development of the initial investment or expected participation in earnings resulting from the use of investor funds.[28] There can be such an expectation where expected profits “come primarily from the discount below the current price” of a commodity.[29] There is no expectation of profit where a purchaser is motivated primarily by the desire to use or consume the item purchased.[30]
 
@@ -116,7 +116,7 @@ How much expectation of profit is permissible before the arrangement satisfies t
 
 Direct token presales often satisfy this prong. In most direct token presales today, purchasers seem predominantly motivated by a desire to profit from the transaction. Most seem to hope to sell the token at a higher price than they paid. Some commentators have ignored this trend, or justified it by arguing that the developers’ promise of future functionality is a substitute for a genuinely consumptive motive on the part of the purchaser. We take up this issue in depth in the following sections comparing pre-functional token sales to sales of already-functional tokens.
 
-###### From the Efforts of Others*
+###### From the Efforts of Others
 
 Assuming the purchaser’s expectation of profit predominates any consumptive motive, this prong considers the source of that expectation. It asks “whether the efforts made by those other than the investor are the undeniably significant ones, those essential managerial efforts which affect the failure or success of the enterprise.”[33] An analysis of this prong in the token sale context requires a deep understanding of the rights, powers (and, sometimes, obligations) attendant to the token in question. Sadly, this prong and the prior prong are often conflated or collapsed into one another. We take up this issue in the following sections, through the lens of token functionality.
 
